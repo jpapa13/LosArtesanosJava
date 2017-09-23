@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jpapa.losartesanosjava.MainMenuActivity">
+
+    <Button
+        android:id="@+id/VerInventarioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:text="Ver Inventario" />
+
+    <Button
+        android:id="@+id/ConfigurarInventarioButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:drawableLeft="@android:drawable/ic_menu_manage"
+        android:text="Configurar Inventario" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/RegistrarEntradasButton"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:text="Registrar Entradas" />
+
+</LinearLayout>
